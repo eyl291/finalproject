@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+canvas {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  border: 10px solid black;
+}
+
+@keyframes appear {
+  0% {opacity: 0;}
+  20% {opacity: 0.5;}
+  40% {opacity: 1;}
+  60% {opacity: 0.5;}
+  100% {opacity: 0;}
+}
+
+
+
+#img1{
+  top: 100%;
+  left: 15%;
+
+}
+
+#img2{
+  top: 165%;
+  left: 50%;
+}
+
+
+.imgs{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  animation-name: appear;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+.ny1, .ny2, .ny3 {
+  position: relative;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.ny1 {
+  background-image: url("images/ny1.jpg");
+  min-height: 100%;
+}
+
+.ny2 {
+  background-image: url("images/ny2.jpg");
+  min-height: 500px;
+}
+
+.ny3 {
+  background-image: url("images/ny3.jpg");
+  min-height: 500px;
+}
+
