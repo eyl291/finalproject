@@ -1,3 +1,21 @@
+const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
+let w = window.innerWidth;
+
+let position1 = 0;
+let position2 = w;
+let animation = setInterval(slide, 10);
+function slide() {
+  if (position1 < w) { 
+    position1 += 1; 
+    img1.style.right = position1 + 'px'; 
+    img1.style.left = position1 + 'px'; 
+  } else {
+    position1 = 0;
+  }
+}
+
+
 const canvas = document.getElementById('drawing');
 const context = canvas.getContext('2d');
 
@@ -18,8 +36,6 @@ function setup() {
 
   context.scale(scale, scale);
 }
-
-let pos = 0;
 
 
 function draw() {
