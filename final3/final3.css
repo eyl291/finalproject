@@ -40,16 +40,55 @@ body{
 	mix-blend-mode: multiply;
 }
 
+#img3{
 
- @keyframes rotate {
+	z-index: 1px;
+	padding-left: 100px;
+	padding-top: 100px;
+	mix-blend-mode: difference;
+}
+
+#img4{
+
+	float: right;
+	z-index: 1px;
+	padding-right: 100px;
+	padding-top: 100px;
+	mix-blend-mode: multiply;
+}
+
+#img5{
+
+	z-index: 1px;
+	padding-left: 100px;
+	padding-top: 100px;
+	mix-blend-mode: difference;
+}
+
+#img6{
+
+	float: right;
+	z-index: 1px;
+	padding-right: 100px;
+	padding-top: 100px;
+	mix-blend-mode: multiply;
+}
+
+
+
+@keyframes rotate {
     from {transform: rotateY(0deg);}
     to {transform: rotateY(360deg);}
 }
 
-#img1, #img2 {
+
+
+#img1, #img2, #img3, #img4, #img5, #img6 {
 	animation-name: rotate;
 	animation-iteration-count: infinite;
 	animation-duration: 10s;
 }
+
+
 
 
