@@ -6,3 +6,7 @@ Since it is my last semester here at NYU, for my final project I am going to cre
 
 
 I will make my pages aesthetically relate by making most of my content black and white. My drawings will relate conceptually by incorporating visuals of New York City in all the pages. I will also make my drawings stick to an overarching theme of vintage/film camera aesthetics. In terms of interactivity, I will incorporate scroll that reveals new content when the user scrolls down. I will also incorporate animation when a user loads, clicks, or hovers on the page. To do this, I am going to use the tools we learned in class--mostly CSS animation, JavaScript, and HTML Canvas. 
+
+
+
+Here is the link to my website: [Final Project](http://i6.cims.nyu.edu/~eyl291/380/finalproject/final0/final0.html)
